@@ -29,13 +29,13 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false |
 | false | false | false |
 ```
-
+```
 |   A   |   B   | A || B |
 | true  | true  | true   |
 | false | true  | true   |
 | true  | false | true   |
 | false | false | false  |
-
+```
 
 
 
@@ -51,13 +51,13 @@ For reference, here is a truth table for the expression A && !B:
 | true  | false | true   | true  |
 | false | false |  true  | false |
 ```
-
+```
 |   A   |   B   | A!    |   !B   | !A & !B |
 | true  | true  | false | false  | false |
 | false | true  | true  | false  | false |
 | true  | false | false | true   | false |
 | false | false | true  |  true  | true  |
-
+```
 
 
 
@@ -71,12 +71,12 @@ For reference, here is a truth table for the expression A && !B:
           6 + 4
               10
 ```
-
+```
   2 + 3 * 2 + 1
   6 + 2 + 1
   8 + 1
   9
-
+```
 
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 ```
