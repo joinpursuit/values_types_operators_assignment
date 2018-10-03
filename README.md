@@ -27,7 +27,6 @@
 */
 For reference, here is a truth table for the expression A && B:
 /*
-``` js 
 
 |   A   |   B   | A && B | 
 | true  | true  | true   |
@@ -35,7 +34,6 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false  |
 | false | false | false  | 
 
-```
 */
 4. Create a truth table for the expression !A && !B.
 /*
@@ -46,16 +44,13 @@ For reference, here is a truth table for the expression A && B:
 | false | false |  true  | true   |  true    |
 */
 For reference, here is a truth table for the expression A && !B:
-/*
-``` js 
 
+/*
 |   A   |   B   |   !B   | A && !B | 
 | true  | true  | false  | false   |
 | false | true  | false  | false   |
 | true  | false | true   | true    |
 | false | false |  true  | false   | 
-
-```
 */
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
 /*
