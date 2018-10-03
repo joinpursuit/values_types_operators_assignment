@@ -24,17 +24,17 @@ For reference, here is a truth table for the expression A && B:
 
  ``` js
 
-|   A   |   B   | A || B | 
+|   A   |   B   | A || B |
 | true  | true  | true  |
 | false | true  | TRUE |
 | true  | false | TRUE |
-| false | false | false | 
+| false | false | false |
 
 
 4. Create a truth table for the expression !A && !B.
 
 
-|   A   |   B   |   !A   |   !B  |  !A && !B | 
+|   A   |   B   |   !A   |   !B  |  !A && !B |
 | true  | true  | false  | false |    TRUE   |
 | false | true  | true   | false |   FALSE   |
 | true  | false | false  | true  |   FALSE   |   
@@ -42,24 +42,24 @@ For reference, here is a truth table for the expression A && B:
 
 ```
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
-  2 + 6 + 1
-    9
-  
+- 2 + 6 + 1
+  -   9
+
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
-4 / 2 = 2
-8 / 4 = 2
-2 + 2 + 4
-4
+- 4 / 2 = 2
+- 8 / 4 = 2
+- 2 + 2 + 4
+- 4
 
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
- Ca
- Cater
- Caterpi
- Caterpillar
+ -  Ca
+ - Cater
+ - Caterpi
+ - Caterpillar
 
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-  2 * 4 = 8 = 8 = TRUE
-  AND
-  CARPOOL = CARPOOL = TRUE
-  TRUE = TRUE
-  TRUE
+-   2 * 4 = 8 = 8 = TRUE
+-   AND
+-   CARPOOL = CARPOOL = TRUE
+-   TRUE = TRUE
+-   TRUE
