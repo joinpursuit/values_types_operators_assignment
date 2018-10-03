@@ -58,11 +58,11 @@ For reference, here is a truth table for the expression A && !B:
 
 ```
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
-
+``` js 
 3*2 = 6
 2 + 6 = 8
 8 + 1 = 9
-
+```
   For reference, here is a exp of a step-by-step evaluation: 
   ```js
   1 + 2 + 3 + 4
@@ -72,24 +72,26 @@ For reference, here is a truth table for the expression A && !B:
   ```
   
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
- 
+   ```js
  4/2 = 2
  8/4 = 2
  2 + 2 = 4
-
+  ```
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+   ```js
 ca 
 cater
 caterpi
 caterpillar
-
+  ```
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-
+   ```js
  /* order of events is multipication, adding, comparison and "AND"
 2*4 = 8
 'car' + 'pool' = 'carpool'
 8 === 8 // returns true
 'carpool' === 'carpool' // returns true
 true && true // returns true
- */
+*/
+  ```
   
