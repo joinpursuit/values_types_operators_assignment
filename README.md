@@ -18,15 +18,17 @@
 * `2 === 1 || 3 === 4` // boolean
 
 3. Create a truth table for the expression A || B.
-/*
+``` js
 |   A   |   B   | A || B | 
 | true  | true  | true   |
 | false | true  | true   |
 | true  | false | true   |
 | false | false | false  |
-*/
+```
+
 For reference, here is a truth table for the expression A && B:
-/*
+
+``` js 
 
 |   A   |   B   | A && B | 
 | true  | true  | true   |
@@ -34,30 +36,32 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false  |
 | false | false | false  | 
 
-*/
+```
+
 4. Create a truth table for the expression !A && !B.
-/*
+``` js 
 |   A   |   B   |   !A   |   !B   | !A && !B |
 | true  | true  | false  | false  |  false   |
 | false | true  | true   | false  |  false   |
 | true  | false | false  | true   |  false   |
 | false | false |  true  | true   |  true    |
-*/
+```
 For reference, here is a truth table for the expression A && !B:
 
-/*
+``` js 
+
 |   A   |   B   |   !B   | A && !B | 
 | true  | true  | false  | false   |
 | false | true  | false  | false   |
 | true  | false | true   | true    |
 | false | false |  true  | false   | 
-*/
+
+```
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
-/*
+
 3*2 = 6
 2 + 6 = 8
 8 + 1 = 9
-*/
 
   For reference, here is a exp of a step-by-step evaluation: 
   ```js
@@ -68,18 +72,17 @@ For reference, here is a truth table for the expression A && !B:
   ```
   
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
- /*
+ 
  4/2 = 2
  8/4 = 2
  2 + 2 = 4
-*/
+
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
- /*
 ca 
 cater
 caterpi
 caterpillar
-*/
+
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
 
  /* order of events is multipication, adding, comparison and "AND"
