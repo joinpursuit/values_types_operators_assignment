@@ -43,7 +43,7 @@ For reference, here is a truth table for the expression A && !B:
 //| true  | true  | false |  false  | false   |
 //| false | true  | true  |  false  | false   |
 //| true  | false | false |  true   | false   |
-//| false | false | true  |  true   | true    | 
+//| false | false | true  |  true   | true    |
 
 ``` js
 
@@ -55,6 +55,10 @@ For reference, here is a truth table for the expression A && !B:
 
 ```
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
+
+// 3 * 2 = 6
+//   6 + 2 + 1 = 9
+
   For reference, here is a exp of a step-by-step evaluation:
   ```js
   1 + 2 + 3 + 4
@@ -65,5 +69,17 @@ For reference, here is a truth table for the expression A && !B:
 
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
+ // 4 / 2 = 2
+ //   8 / 4 = 2
+ //     2 + 2 = 4
+
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+
+// ca + ter + pi + llar
+//   caterpillar
+
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+
+ // 2*4 = 8 === 8 true
+// 'car'+ 'pool' === 'carpool' true
+// true && true = true
