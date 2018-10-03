@@ -5,7 +5,7 @@
 (bc it is a number)
 * `1 + 2 * 3 + 4` // number = 1 + 6 + 4 = 6 + 5 = 11
 (bc of BODMAS)
-* `800 / 80 / 8` // number = 800 * 8/80 = 800 * 1/10 = 80
+* `800 / 80 / 8` // number = 800/80 / 8  =  10 /8 = 1.25
 (bc of arithmetic rules)
 * `400 > 200` // boolean = true
 (because 400 IS > 200)
