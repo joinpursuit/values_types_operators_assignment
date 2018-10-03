@@ -33,7 +33,7 @@
 ``` js
 
 // |   A   |   B   |   !A   |  !B   | !A && !B |
-// | true  | true  | false  | false | true     |
+// | true  | true  | false  | false | false    |
 // | false | true  | true   | false | false    |
 // | true  | false | false  | true  | false    |
 // | false | false | true   | true  | true     |
@@ -67,4 +67,4 @@
   // 8 === 8 && 'car' + 'pool' === 'carpool'
   // TRUE && 'carpool' === 'carpool'
   // TRUE && True
-  // TRUE 
+  // TRUE
