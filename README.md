@@ -18,11 +18,11 @@
 * `2 === 1 || 3 === 4` // booleans and is false
 
 3. Create a truth table for the expression A || B.
-// |  A    |   B   |  A || B
-// | true  | true  | true   |
-// | false | true  | true   |
-// | true  | false | true   |
-// | false | false | false  |
+// |  A    |   B   | A || B |
+// | true  | true  |  true  |
+// | false | true  |  true  |
+// | true  | false |  true  |
+// | false | false |  false |
 
 For reference, here is a truth table for the expression A && B:
 
