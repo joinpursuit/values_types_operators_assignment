@@ -19,7 +19,7 @@
 
 3. Create a truth table for the expression A || B.
 
-```
+``` js
 |   A   |   B   | A || B |
 | true  | true  | true   |
 | false | true  | true   |
