@@ -30,7 +30,7 @@ For reference, here is a truth table for the expression A && B:
 | false | false | false |
 
 ```
-MY TTRUTH TABLE FOR A || B
+MY TRUTH TABLE FOR A || B
 
 |   A   |   B   | A || B |
 | true  | true  | true   |
@@ -92,4 +92,4 @@ For reference, here is a truth table for the expression A && !B:
  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
    8   === 8 &&     'carpool'  === 'carpool'
       true   &&             true
-              true 
+              true
