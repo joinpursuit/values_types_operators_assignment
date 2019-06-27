@@ -1,15 +1,15 @@
 # Values, Types & Operators Exercises
 
 1. What are the types of the following expressions and what do they evaluate to, and why?
-* `17` -> Number
-* `1 + 2 * 3 + 4` -> 11 -> Number
-* `800 / 80 / 8` -> 1.25 -> Number
-* `400 > 200` -> True -> Boolean
-* `1 !== 1` -> False -> Boolean
-* `true || false` -> True -> Boolean
-* `true && false` -> False -> Boolean
-* `20 % 6` -> 2 -> Number
-* `'a' + 'b'` -> 'ab' -> String
+* `17` -> Number: All integers a decimals will be considered numbers by the terminal
+* `1 + 2 * 3 + 4` -> 11 -> Number: After the operators are completed the solution is considered a Number
+* `800 / 80 / 8` -> 1.25 -> Number: Here we can see even decimals are considered Numbers
+* `400 > 200` -> True -> Boolean: Comparison operators will produce true or false values
+* `1 !== 1` -> False -> Boolean: The value and type are both equal so they don't meet !== Requirements
+* `true || false` -> True -> Boolean: Both sides must be false for the result to be false. So its true
+* `true && false` -> False -> Boolean: If both sides are true for && then it must be true, otherwise false
+* `20 % 6` -> 2 -> Number: The operator produces the remainder of the two numbers. CLI Considers it a number
+* `'a' + 'b'` -> 'ab' -> String: Once the two strings are concatenated it still creates a string
 
 2. What will the following return?
 * `typeof 4` -> Number
