@@ -20,6 +20,7 @@
 * `'a' + 'b'`
 //This is a string and evaluates to ab because the plus sign between the two strings is used to join the two together.
 
+
 2. What will the following return?
 * `typeof 4`
 //number
@@ -29,6 +30,7 @@
 //boolean
 * `2 === 1 || 3 === 4`
 //false
+
 
 3. Create a truth table for the expression A || B.
 
@@ -41,15 +43,15 @@ For reference, here is a truth table for the expression A && B:
 | false | true  | false |
 | true  | false | false |
 | false | false | false |
-
-/*
-|   A   |   B   |  A || B |
-| true  | true  |   true  |
-| true  | false |   true  |
-| false | true  |   true  |
-| false | false |   false |
-*/
 ```
+
+//      | A | B | A || B |
+//      | T | T |    T   |
+//      | T | F |    T   |
+//      | F | T |    T   |
+//      | F | F |    F   |
+
+
 4. Create a truth table for the expression !A && !B.
 
 For reference, here is a truth table for the expression A && !B:
@@ -61,8 +63,14 @@ For reference, here is a truth table for the expression A && !B:
 | false | true  | false  | false |
 | true  | false | true   | true  |
 | false | false |  true  | false |
-
 ```
+
+//      | A | B | !A | !B | !A && B! |
+//      | T | T |  F |  F |     F    |
+//      | T | F |  F |  T |     F    |
+//      | F | T |  T |  F |     F    |
+//      | F | F |  T |  T |     T    |   
+
 
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
   For reference, here is a exp of a step-by-step evaluation:
@@ -73,7 +81,27 @@ For reference, here is a truth table for the expression A && !B:
               10
   ```
 
+//  2 + 3 * 2 + 1
+//      2 + 6 + 1
+//          8 + 1
+//              9
+
+
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
+ //   4 / 2 + 8 / 4
+//        2 + 8 / 4
+//            2 + 2
+//                4
+
+
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+
+ //  'ca' + 'ter' + 'pi' + 'llar'
+ //    ca + 'ter' + 'pi' + 'llar'
+ //         cater + 'pi' + 'llar'
+ //              caterpi + 'llar'
+ //                   caterpillar
+ 
+
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
