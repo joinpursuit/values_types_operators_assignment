@@ -1,35 +1,37 @@
 # Values, Types & Operators Exercises
+// Answers are beside the single line comments
+
 
 1. What are the types of the following expressions and what do they evaluate to, and why?
 * `17`
-//This is a number and it evaluates to 17 because numbers follow basic math rules.
+// This is a number and it evaluates to 17 because numbers follow basic math rules.
 * `1 + 2 * 3 + 4`
-//This is a number and it evaluates to 11 because it did multiplication before addition.
+// This is a number and it evaluates to 11 because it did multiplication before addition.
 * `800 / 80 / 8`
-//This is a number and it evaluates to 1.25 because it did division.
+// This is a number and it evaluates to 1.25 because it did division.
 * `400 > 200`
-//This is a boolean and it evaluates to true because 400 is indeed greater than 200.
+// This is a boolean and it evaluates to true because 400 is indeed greater than 200.
 * `1 !== 1`
-//This is a boolean and it evaluates to false because 1 is definitely equal to 1.
+// This is a boolean and it evaluates to false because 1 is definitely equal to 1.
 * `true || false`
-//This is a boolean and it evaluates to true because at least one of the values of the expression is true.
+// This is a boolean and it evaluates to true because at least one of the values of the expression is true.
 * `true && false`
-//This is a boolean and it evaluates to false because both of the values of the expression is not true.
+// This is a boolean and it evaluates to false because both of the values of the expression is not true.
 * `20 % 6`
-//This is a number and it evaluates to 2 because the expression is looking for the remainder after the division occurs.
+// This is a number and it evaluates to 2 because the expression is looking for the remainder after the division occurs.
 * `'a' + 'b'`
-//This is a string and evaluates to ab because the plus sign between the two strings is used to join the two together.
+// This is a string and evaluates to ab because the plus sign between the two strings is used to join the two together.
 
 
 2. What will the following return?
 * `typeof 4`
-//number
+// number
 *  `typeof 'hello'`
-//string
+// string
 *  `typeof true`
-//boolean
+// boolean
 * `2 === 1 || 3 === 4`
-//false
+// false
 
 
 3. Create a truth table for the expression A || B.
@@ -102,6 +104,14 @@ For reference, here is a truth table for the expression A && !B:
  //         cater + 'pi' + 'llar'
  //              caterpi + 'llar'
  //                   caterpillar
- 
+
 
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+
+//  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+//      8 === 8 && 'car' + 'pool' === 'carpool'
+//         true && 'car' + 'pool' === 'carpool'
+//                true && carpool === 'carpool'
+//                  true && carpool === carpool
+//                                 true && true
+//                                         true
