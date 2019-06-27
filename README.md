@@ -40,13 +40,15 @@ For reference, here is a truth table for the expression A && B:
 ```
 4. Create a truth table for the expression !A && !B.
 
+``` js
+
 |   A   |   B    | !A && !B |
 | false |  false | true     |
 | false |  true  | false    |
 | true  |  false | false    |
 | true  |  true  | false    |
 
-...
+```
 
 For reference, here is a truth table for the expression A && !B:
 
