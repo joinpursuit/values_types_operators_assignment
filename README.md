@@ -19,8 +19,7 @@
 
 3. Create a truth table for the expression A || B.
 
-|   A   |   B   | A || B |
---------|-------|-------|
+|   A   |   B   | A || B | /n
 | true  | true  | true  |
 | false | true  | true  |
 | true  | false | true  |
