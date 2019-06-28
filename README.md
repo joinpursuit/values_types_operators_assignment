@@ -84,6 +84,7 @@ For reference, here is a truth table for the expression A && !B:
      2 + 8 / 4
          2 + 2
              4
+             
  ```
 
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
