@@ -38,28 +38,17 @@
 ```
 5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
   //
-  2 + 3 * 2 + 1
-      2 + 6 + 1
-          8 + 1
-              9
+  9
 
  6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 //
-4 / 2 + 8 / 4
-    2 + 8 / 4
-        2 + 2
-            4
+
+4
 
  7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 //
-'ca' + 'ter' + 'pi' + 'llar'
-'cater' + 'pi' + 'llar'
-'caterpi' + 'llar'
 'caterpillar'
 
  8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
  //
- 2 * 4 === 8 && 'car' + 'pool ' === 'carpool'
- 8 === 8 && 'carpool' === 'carpool'
- true && true
  true
