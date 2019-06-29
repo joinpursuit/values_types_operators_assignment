@@ -35,7 +35,7 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false |
 | false | false | false |
 
-```
+``` js
 4. Create a truth table for the expression !A && !B.
 |  A    |  !A   |  B    | !B    |  A && B|
 |-------|------ |-------|-------|--------|
@@ -43,7 +43,8 @@ For reference, here is a truth table for the expression A && B:
 |false  | true  | true  | false | false  |
 |true   | false | false | true  | false  |
 |false  | true  | false | true  | true   |
-
+  
+ ``` js
 
 For reference, here is a truth table for the expression A && !B:
 
