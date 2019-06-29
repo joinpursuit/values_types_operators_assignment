@@ -2,13 +2,13 @@
 
 1. What are the types of the following expressions and what do they evaluate to, and why?
 * `17`
-// 17 as it is a number
+// 17 as it is a number literal
 * `1 + 2 * 3 + 4`
 // 11 as in the order of operations you use multiplication first
 * `800 / 80 / 8`
 //1.25 as the program divides from left to right
 * `400 > 200`
-// true as this runs if 400 is a greater number than 200
+// true as this runs if 400 is a greater number than 200, aka is a boolean
 * `1 !== 1`
 // false as !== asks if 1 is NOT equal to 1
 * `true || false`
