@@ -18,6 +18,9 @@
 * `2 === 1 || 3 === 4` false
 
 3. Create a truth table for the expression A || B.
+
+``` js
+
 |  A   |   B    | A || B |
 |------|--------|--------|
 | true | true   | true   |
@@ -28,7 +31,6 @@
 ``` js
 For reference, here is a truth table for the expression A && B:
 
-``` js
 
 |   A   |   B   | A && B |
 | true  | true  | true  |
