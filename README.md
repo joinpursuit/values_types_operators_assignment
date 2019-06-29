@@ -25,6 +25,7 @@
 |true  | false  | true   |
 |false | false  | false  |
 
+``` js
 For reference, here is a truth table for the expression A && B:
 
 ``` js
