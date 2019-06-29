@@ -45,17 +45,17 @@ For reference, here is a truth table for the expression A && !B:
 ``` js
 
 #Example
-|   A   |   B   |   !B   | A && B |
+|   A   |   B   |   !B   | A && !B |
 | true  | true  | false  | false |
 | false | true  | false  | false |
 | true  | false | true   | true  |
 | false | false |  true  | false |
 
 #Answer
-|   A   |   !A   |   B   |   !B   | A && B |
+|   A   |   !A   |   B   |   !B   | !A && !B |
 | true  | false  | true  | false  | false  |
 | false | true   | true  | false  | false  |
-| true  | true   | false | true   | true   |
+| true  | false  | false | true   | true   |
 | false | true   | false | true   | false  |
 
 ```
@@ -102,9 +102,7 @@ For reference, here is a truth table for the expression A && !B:
  ```js
  #Answer
   2 * 4 === 8 && 'car' + 'pool' === 'carpool'
-      8 === 8 && 'car' + 'pool' === 'carpool'
-         true && 'car' + 'pool' === 'carpool'
-              true && 'carpool' === 'carpool'
+           8 === 8 && 'carpool' === 'carpool'
                                  true && true
                                          true
  ```
