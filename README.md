@@ -10,6 +10,10 @@
 * `true && false`
 * `20 % 6`
 * `'a' + 'b'`
+* `false and true` // Boolean expresion, evaluates to false, because && (and) requires both sides to be true to yield true
+
+
+
 
 2. What will the following return?
 * `typeof 4`
