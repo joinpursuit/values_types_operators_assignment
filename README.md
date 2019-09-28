@@ -90,8 +90,8 @@ Write a step-by-step evaluation for the following expression (remember order of 
  Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi' + 'llar'.
     
     
-    cater + 'pi' + 'llar'
-    caterpillar
+cater + 'pi' + 'llar'
+caterpillar
     
 
  ## Problem Nine
@@ -100,9 +100,9 @@ Write a step-by-step evaluation for the following expression (remember order of 
         
         
       
-        8 === 8 && 'car' + 'pool' === 'carpool'
-        true && true
-        true
+  8 === 8 && 'car' + 'pool' === 'carpool'
+  true && true
+  true
         
         
 
@@ -112,8 +112,8 @@ Write a step-by-step evaluation for the following expression (remember order of 
   Write a step-by-step evaluation for the following expression: '1' + '2' + '3' - '1'
     
   
-    1' + '2' + '3' - '1'`
-    122
+  1' + '2' + '3' - '1'`
+  122
     
 
   
