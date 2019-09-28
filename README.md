@@ -42,10 +42,10 @@ Create a truth table for the expression A || B.
 
 |   A   |   B   | A || B | 
 |-------|-------|--------|
-| true  | true  | true  |
-| false | true  | true  |
-| true  | false | true  |
-| false | false | false | 
+| true  | true  | true   |
+| false | true  | true   |
+| true  | false | true   |
+| false | false | false  | 
 
 For reference, here is a truth table for the expression A && B:
 
@@ -53,10 +53,10 @@ For reference, here is a truth table for the expression A && B:
 
 |   A   |   B   | A && B | 
 |-------|-------|--------|
-| true  | true  | true  |
-| false | true  | false |
-| true  | false | false |
-| false | false | false | 
+| true  | true  | true   |
+| false | true  | false  |
+| true  | false | false  |
+| false | false | false  | 
 
 
 ## Problem Four
@@ -73,11 +73,11 @@ Create a truth table for the expression !A && !B.
 For reference, here is a truth table for the expression A && !B:
 
 |   A   |   B   |   !B   | A && !B | 
-|-------|-------|--------|--------|
-| true  | true  | false  | false |
-| false | true  | false  | false |
-| true  | false | true   | true  |
-| false | false |  true  | false | 
+|-------|-------|--------|---------|
+| true  | true  | false  |  false  |
+| false | true  | false  |  false  |
+| true  | false | true   |  true   |
+| false | false |  true  |  false  | 
 
 ## Problem Five
 
@@ -101,35 +101,35 @@ Write a step-by-step evaluation for the following expression (remember order of 
           6 + 4
               10
   ```
-1) PEMDAS applies with mathematical operators
-2) 2 + 3 * 2 + 1
-3)   2 + 6 + 1
-4)       8 + 1
-5)         = 9
+1)      PEMDAS applies with mathematical operators
+2)          2 + 3 * 2 + 1
+3)            2 + 6 + 1
+4)              8 + 1
+5)                9
   
  ## Problem Seven
  
  Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
- 1) 4 / 2 + 8 / 4
- 2)   2   + 8 / 4
- 3)   2   +   2
- 4)       =   4
+ 1)     4 / 2 + 8 / 4
+ 2)      2   + 8 / 4
+ 3)       2   +   2
+ 4)           4
 
  
  ## Problem Eight
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-1) 'ca' + 'ter' + 'pi' + 'llar'
-2)      'cater' + 'pi' + 'llar'
+1)      'ca' + 'ter' + 'pi' + 'llar'
+2)        'cater' + 'pi' + 'llar'
 3)           'caterpi' + 'llar'
-4)              = 'caterpillar'
+4)            = 'caterpillar'
  
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
 
-1)  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+1)      2 * 4 === 8 && 'car' + 'pool' === 'carpool'
 2)      8 === 8 && 'car' + 'pool' === 'carpool'
 3)      true && 'car' + 'pool' === 'carpool'
 4)      true && 'carpool' === 'carpool'
@@ -141,10 +141,10 @@ Write a step-by-step evaluation for the following expression (remember order of 
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 
-  1) '1' + '2' + '3' - '1'
-  2)  '1' + '2' + '2'
-  3)    '12' + '2'
-  4)       '122'
+  1)    '1' + '2' + '3' - '1'
+  2)       '1' + '2' + '2'
+  3)          '12' + '2'
+  4)             '122'
 
 
   
