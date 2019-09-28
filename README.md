@@ -87,7 +87,8 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
  ## Problem Eight
  
- Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi' + 'llar'.
+ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi + 'llar'.
+    
     ```
     cater + 'pi' + 'llar'
     caterpillar
@@ -107,11 +108,12 @@ Write a step-by-step evaluation for the following expression (remember order of 
  
   Write a step-by-step evaluation for the following expression: '1' + '2' + '3' - '1'
     
+    ```
     1' + '2' + '3' - '1'`
     122
-    
+    ```
 
-    Test
+  
     
 
 
