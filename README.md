@@ -43,6 +43,11 @@ Create a truth table for the expression A || B
 
 
 
+
+
+
+
+
 |   A   |   B   | A || B | 
 |-------|-------|--------|
 | true  | true  | true   |
@@ -57,6 +62,9 @@ Create a truth table for the expression !A && !B
 
 
 
+
+
+
 |   A   |   B   |   !B   | A && B    | 
 |-------|-------|--------|---------  |
 | true  | true  | false  |  false    |
@@ -66,7 +74,15 @@ Create a truth table for the expression !A && !B
 
 ## Problem Five
 
+
+
+
+
+
+
 Create a truth table for the expression !(A || B)
+
+
 
 
 
