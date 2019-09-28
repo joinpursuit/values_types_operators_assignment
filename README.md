@@ -61,7 +61,6 @@ For reference, here is a truth table for the expression A && B:
 | false | false | false | 
 
 
-
 ## Problem Four
 
 Create a truth table for the expression !A && !B.
@@ -93,7 +92,7 @@ Create a truth table for the expression !(A || B).
 
 |   A   |   B   | !(A || B) | 
 |-------|-------|--------|
-| true  | true  | false  |
+| true  | true  | false |
 | false | true  | false |
 | true  | false | flase |
 | false | false | true | 
@@ -119,38 +118,42 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Seven
  
  Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+  ```
     4 / 2 + 8 / 4
-    2+ 8 / 4
+    2 + 8 / 4
     2 + 2
     4
-
+ ```
 
 
  ## Problem Eight
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+ ```
 'ca' + 'ter' + 'pi' + 'llar'
      'cater' + 'pi' + 'llar'
       'caterpi' + 'llar'
    'caterpillar'
-
+ ```
 
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+ ```
 2 * 4 === 8 && 'car' + 'pool' === 'carpool
 8 === 8 && 'car' + 'pool' === 'carpool
 8 === 8 && 'carpool' === 'carpool
 true && 'carpool' === 'carpool
  true && true
  true
+  ```
 
  ## Problem Ten
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-
+ ```
 '1' + '2' + '3' - '1'
 '12' +  '3' - '1'
 '123' - '1'
 '122'
-  
+   ```
