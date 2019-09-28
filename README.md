@@ -5,27 +5,42 @@
 What are the types of the following expressions and what do they evaluate to, and why?
 
 * `17`
-string
-'17'
+number
+17
 * `1 + 2 * 3 + 4`
-string
-'1+2' * '3+4'
+number
+11
 * `800 / 80 / 8`
+number
+1.25
 * `400 > 200`
+boolean
+false
 * `1 !== 1`
+false
 * `true || false`
+true
 * `true && false`
+false 
 * `20 % 6`
+reminder
+2
 * `'a' + 'b'`
+string
+a + B
 
 ## Problem Two
 
 What will the following return?
 
 * `typeof 4`
+number
 *  `typeof 'hello'`
+string
 *  `typeof true`
+booelan
 * `2 === 1 || 3 === 4`
+false
 
 ## Problem Three
 
