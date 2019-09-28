@@ -2,7 +2,7 @@
 
 ## Problem One
 
-What are the types of the following expressions and what do they evaluate to, and why    ?
+What are the types of the following expressions and what do they evaluate to, and why brandon?
 
 * `17`
 * `1 + 2 * 3 + 4`
