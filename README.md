@@ -87,7 +87,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
  ## Problem Eight
  
- Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi + 'llar'.
+ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi' + 'llar'.
     
     ```
     cater + 'pi' + 'llar'
@@ -97,10 +97,13 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'car' + 'pool' === 'carpool'.
+        
+        
         ```
         8 === 8 && 'car' + 'pool' === 'carpool'
         true && true
         true
+        
         ```
 
 
