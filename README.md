@@ -66,7 +66,7 @@ Create a truth table for the expression !(A || B).
 
 ## Problem Six
 
-Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
+Write a step-by-step evaluation for the following expression (remember order of operations): 2 + 3 * 2 + 1.
   For reference, here is a exp of a step-by-step evaluation: 
   ```
   2 + 3 * 2 + 1
@@ -77,7 +77,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ```
  ## Problem Seven
  
- Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+ Write a step-by-step evaluation for the following expression (remember order of operations): 4 / 2 + 8 / 4.
   ```
    4 / 2 + 8 / 4
         2 + 2
@@ -87,7 +87,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
  ## Problem Eight
  
- Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+ Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi' + 'llar'.
     ```
     cater + 'pi' + 'llar'
     caterpillar
@@ -95,7 +95,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
  ## Problem Nine
  
- Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+ Write a step-by-step evaluation for the following expression: 2 * 4 === 8 && 'car' + 'pool' === 'carpool'.
         ```
         8 === 8 && 'car' + 'pool' === 'carpool'
         true && true
@@ -105,11 +105,11 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
  ## Problem Ten
  
-  Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-    ```
+  Write a step-by-step evaluation for the following expression: '1' + '2' + '3' - '1'
+    
     1' + '2' + '3' - '1'`
     122
-    ```
+    
 
     Test
     
