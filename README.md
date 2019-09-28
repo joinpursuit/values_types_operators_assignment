@@ -2,6 +2,7 @@
 
 1. What are the types of the following expressions and what do they evaluate to, and why?
 * `17       //number, evaluates to 17
+
 * `1 + 2 * 3 + 4`
 * `800 / 80 / 8` // number, evaluates to 1.25
 * `400 > 200` // boolean, true b/c 400 is greater than 200
@@ -34,6 +35,7 @@ For reference, here is a truth table for the expression A && B:
 | false | true  | false |
 | true  | false | false |
 | false | false | false |
+
 
 ```
 4. Create a truth table for the expression !A && !B.
@@ -71,12 +73,14 @@ For reference, here is a truth table for the expression A && !B:
   9
 ```
   For reference, here is a exp of a step-by-step evaluation:
+
   ```js
-  1 + 2 + 3 + 4
+  1 + 2 + 3 + 4  
       3 + 3 + 4
           6 + 4
               10
   ```
+
 
  7. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 ``` js
@@ -105,3 +109,4 @@ For reference, here is a truth table for the expression A && !B:
 6 - 1 
 5
 ```
+
