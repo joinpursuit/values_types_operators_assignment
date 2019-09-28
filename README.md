@@ -40,8 +40,6 @@ false
 ## Problem Three
 
 Create a truth table for the expression A || B
-
-
 |   A   |   B   | A || B | 
 |-------|-------|--------|
 | true  | true  | true  |
@@ -53,9 +51,6 @@ Create a truth table for the expression A || B
 ## Problem Four
 
 Create a truth table for the expression !A && !B.
-
-
-
 |   A   |   B   |   !B   | A && B    | 
 |-------|-------|--------|---------  |
 | true  | true  | false  |  false    |
@@ -66,7 +61,6 @@ Create a truth table for the expression !A && !B.
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
-
 |   !A  |   !B  |  A || B | !A || B|
 |-------|-------|---------|--------|
 | true  | true  | true    |  false |
@@ -100,7 +94,6 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Eight
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-
  'ca' + 'ter' + 'pi' + 'llar' 
  -> cater + 'pi' + 'llar'
  --> caterpi + 'llar'
@@ -108,7 +101,6 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-
  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
  -> 8 === 8 &&  'car' + 'pool' === 'carpool'
  --> true && 'car'+ 'pool' === 'carpool'
