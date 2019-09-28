@@ -143,5 +143,5 @@ Write a step-by-step evaluation for the following expression (remember order of 
     "1" + "2" + "3" - "1"
         "12" + "3" - "1"
             "123" - "1"
-                    false
+                    "122"
 
