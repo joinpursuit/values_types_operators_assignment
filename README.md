@@ -4,15 +4,15 @@
 
 What are the types of the following expressions and what do they evaluate to, and why?
 ```
-* `17`  String - In quotes
+* `17`  String - String are in quotes - Evalutes to '17'
 * `1 + 2 * 3 + 4` - Number - Evaluates to 11 - Order of Operations
-* `800 / 80 / 8` - Number - Evalutes to 1.25 - Order of Operations
-* `400 > 200` - Boolean - Evalutes to true - 400 is greater than 200
-* `1 !== 1` - Boolean - Evalutes to False - 1 is equal to 1
-* `true || false` Booelean - Evalutes to true - One side is ture
-* `true && false` Boolean - Evalutes to false - Not add
-* `20 % 6` Number - Evaluetes to 2 - 2 is the remainder
-* `'a' + 'b'` String - Evalutes to 'ab' - Concatination
+* `800 / 80 / 8` - Number - Evaluates to 1.25 - Order of Operations
+* `400 > 200` - Boolean - Evaluates to true - 400 is greater than 200
+* `1 !== 1` - Boolean - Evaluates to False - 1 is equal to 1
+* `true || false` Booelean - Evaluates to true - One side is ture
+* `true && false` Boolean - Evaluates to false - Not true
+* `20 % 6` Number - Evaluates to 2 - Modulo is 2 
+* `'a' + 'b'` String - Evaluates to 'ab' - Concatination
 ```
 ## Problem Two
 
@@ -43,12 +43,12 @@ Create a truth table for the expression A || B.
 Create a truth table for the expression !A && !B.
 
 ```
-|   A   |   B   |   !B   | !A && !B | 
-|-------|-------|--------|--------|
-| true  | true  | false  | false |
-| false | true  | false  | false |
-| true  | false | true   | false  |
-| false | false |  true  | true | 
+|   A   |   B   | !A && !B | 
+|-------|-------|--------|
+| true  | true  | false  |
+| false | true  | false  |
+| true  | false | false  |
+| false | false | true   |
 
 ````
 ## Problem Five
@@ -67,7 +67,7 @@ Create a truth table for the expression !(A || B).
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression (remember order of operations): 2 + 3 * 2 + 1.
-  For reference, here is a exp of a step-by-step evaluation: 
+
   ```
   2 + 3 * 2 + 1
     2 + 6 + 1
@@ -90,9 +90,10 @@ Write a step-by-step evaluation for the following expression (remember order of 
  Write a step-by-step evaluation for the following expression: 'ca' + 'ter' + 'pi' + 'llar'.
     
 ```  
-cater + 'pi' + 'llar'
-caterpillar
-  ```    
+'ca' + 'ter' + 'pi' + 'llar'
+  cater + 'pi' + 'llar'
+    caterpillar
+```    
 
  ## Problem Nine
  
