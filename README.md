@@ -5,7 +5,11 @@
 What are the types of the following expressions and what do they evaluate to, and why?
 
 * `17`
+string
+'17'
 * `1 + 2 * 3 + 4`
+string
+'1+2' * '3+4'
 * `800 / 80 / 8`
 * `400 > 200`
 * `1 !== 1`
