@@ -27,36 +27,42 @@ What will the following return?
 
 Create a truth table for the expression A || B.
 
-For reference, here is a truth table for the expression A && B:
+```
 
-
-
-|   A   |   B   | A && B | 
+|   A   |   B   | A || B | 
 |-------|-------|--------|
-| true  | true  | true  |
-| false | true  | false |
-| true  | false | false |
-| false | false | false | 
+| true  | true  |  true  |
+| false | true  |  true  |
+| true  | false |  true  |
+| false | false |  false | 
 
+```
 
 ## Problem Four
 
 Create a truth table for the expression !A && !B.
 
-For reference, here is a truth table for the expression A && !B:
-
-
-
-|   A   |   B   |   !B   | A && B | 
+```
+|   A   |   B   |   !B   | !A && !B | 
 |-------|-------|--------|--------|
 | true  | true  | false  | false |
 | false | true  | false  | false |
-| true  | false | true   | true  |
-| false | false |  true  | false | 
+| true  | false | true   | false  |
+| false | false |  true  | true | 
 
+````
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+```
+|   A   |   B   | ! (A || B )|
+|-------|-------|--------|
+| true  | true  |  false |
+| false | true  |  false |
+| true  | false |  false |
+| false | false |  true  | 
+```
+
 
 ## Problem Six
 
@@ -68,21 +74,38 @@ Write a step-by-step evaluation for the following expression (remember order of 
           6 + 4
               10
   ```
-  
+  2 + 3 * 2 + 1
+    2 + 6 + 1
+        8 + 1
+            9
+
+
  ## Problem Seven
  
  Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
- 
+   4 / 2 + 8 / 4
+        2 + 2
+            4
+
+
+
  ## Problem Eight
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
- 
+    cater + 'pi' + 'llar'
+    caterpillar
+
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
- 
+        8 === 8 && 'car' + 'pool' === 'carpool'
+        true && true
+        true
+
+
+
  ## Problem Ten
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-
-  
+    1' + '2' + '3' - '1'`
+    122
