@@ -40,12 +40,12 @@ false
 
 Create a truth table for the expression A || B.
 
-|   A   |   B   | A || B | 
-|-------|-------|--------|
-| true  | true  | true   |
-| false | true  | true   |
-| true  | false | true   |
-| false | false | false  | 
+|   A   |   B   |  A || B | 
+|-------|-------|---------|
+| true  | true  | true    |
+| false | true  | true    |
+| true  | false | true    |
+| false | false | false   | 
 
 For reference, here is a truth table for the expression A && B:
 
@@ -140,11 +140,11 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Ten
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-
-  1)    '1' + '2' + '3' - '1'
+ ```js
+  1)      '1' + '2' + '3' - '1'
   2)       '1' + '2' + '2'
   3)          '12' + '2'
-  4)             '122'
-
+  4)            '122'
+```
 
   
