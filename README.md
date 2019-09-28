@@ -40,7 +40,7 @@ What will the following return?
 
 Create a truth table for the expression A || B.
 
-|   A   |   B   |  A || B  | 
+|   A   |   B   |  A `||` B  | 
 |-------|-------|----------|
 | true  | true  |   true   |
 | false | true  |   true   |
@@ -83,7 +83,7 @@ For reference, here is a truth table for the expression A && !B:
 
 Create a truth table for the expression !(A || B).
 
-| A || B |  !(A || B) |
+| A `||` B |  !(A `||` B) |
 |--------|------------|
 |  true  |    false   |
 |  true  |    false   |
