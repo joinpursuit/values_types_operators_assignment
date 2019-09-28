@@ -91,8 +91,8 @@ Write a step-by-step evaluation for the following expression (remember order of 
     
 ```  
 'ca' + 'ter' + 'pi' + 'llar'
-  cater + 'pi' + 'llar'
-    caterpillar
+      cater + 'pi' + 'llar'
+                caterpillar
 ```    
 
  ## Problem Nine
