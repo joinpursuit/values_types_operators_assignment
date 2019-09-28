@@ -12,7 +12,7 @@ What are the types of the following expressions and what do they evaluate to, an
 * `true || false` Booelean - Evaluates to true - One side is ture
 * `true && false` Boolean - Evaluates to false - Not true
 * `20 % 6` Number - Evaluates to 2 - Modulo is 2 
-* `'a' + 'b'` String - Evaluates to 'ab' - Concatination
+* `'a' + 'b'` String - Evaluates to 'ab' - Concatenation
 ```
 ## Problem Two
 
