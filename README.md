@@ -23,11 +23,11 @@ true
 * `true && false`
 false 
 * `20 % 6`
-reminder
+number
 2
 * `'a' + 'b'`
 string
-a + B
+a + b
 
 ## Problem Two
 
@@ -38,13 +38,21 @@ number
 *  `typeof 'hello'`
 string
 *  `typeof true`
-booelan
+boolean
 * `2 === 1 || 3 === 4`
+number
 false
 
 ## Problem Three
 
 Create a truth table for the expression A || B.
+
+|   A   |   B   | A || B | 
+|-------|-------|--------|
+| true  | true  |  true  |
+| false | true  | true   |
+| true  | false | true   |
+| false | false | false  | 
 
 For reference, here is a truth table for the expression A && B:
 
@@ -62,6 +70,13 @@ For reference, here is a truth table for the expression A && B:
 
 Create a truth table for the expression !A && !B.
 
+|   A   |   B   | !A     |  !B   | A && B | 
+|-------|-------|--------|-------|--------|
+| true  | true  | false  |false  | false  |
+| false | true  | true   |false  | flase  |
+| true  | false | false  | true  | flase  |
+| false | false | true   | true  | true   | 
+
 For reference, here is a truth table for the expression A && !B:
 
 
@@ -76,6 +91,12 @@ For reference, here is a truth table for the expression A && !B:
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+|   A   |   B   | A || B | !(A||B) |
+|-------|-------|--------|---------|
+| true  | true  |  true  | false   |
+| false | true  | true   | false   |
+| true  | false | true   | false   |
+| false | false | false  | true    |
 
 ## Problem Six
 
