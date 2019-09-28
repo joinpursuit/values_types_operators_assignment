@@ -85,6 +85,15 @@ For reference, here is a truth table for the expression A && B:
 | true  | false | false |
 | false | false | false | 
 
+```
+|   A   |   B   | A || B | 
+|-------|-------|--------|
+| true  | true  | true  |
+| false | true  | true  |
+| true  | false | true  |
+| false | false | false | 
+```
+
 
 ## Problem Four
 
@@ -101,9 +110,27 @@ For reference, here is a truth table for the expression A && !B:
 | true  | false | true   | true  |
 | false | false |  true  | false | 
 
+```
+|   A   |   B   |   !A   |   !B   | !A && !B | 
+|-------|-------|--------|--------|--------|
+| true  | true  |  false |  false |  false |
+| false | true  |  true  |  false |  false |
+| true  | false |  false |  true  |  false |
+| false | false |  true  |  true  |  true  | 
+```
+
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+
+```
+|   A   |   B   | !(A || B) | 
+|-------|-------|-----------|
+| true  | true  |   false   |
+| false | true  |   false   |
+| true  | false |   false   |
+| false | false |   true    | 
+```
 
 ## Problem Six
 
