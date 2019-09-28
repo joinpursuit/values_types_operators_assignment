@@ -91,12 +91,12 @@ For reference, here is a truth table for the expression A && !B:
 
 Create a truth table for the expression !(A || B).
 
-|   A   |   B   | A || B  |!(A || B) | 
-|-------|-------|--------|--------|
+|   A   |   B   | A || B |!(A || B)| 
+|-------|-------|------|--------|
 | true  | true  | true |   false  |  
 | false | true  | true |   false  |
-| true  | false | true |   false |
-| false | false | false|  true   | 
+| true  | false | true |   false|
+| false | false | false|  true | 
 
 ## Problem Six
 
@@ -157,7 +157,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
  '1' + '2' + '3' - '1'
     '12' + '3' - '1'
         '123' - '1'
-        
+
             '122'
 
 
