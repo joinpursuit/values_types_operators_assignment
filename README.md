@@ -55,7 +55,15 @@ For reference, here is a truth table for the expression A && !B:
 | false | false |  true  | false |
 
 ```
-5. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
+5. Create a truth table for the expression !(A || B).
+```js
+|   A   |   B   | !(A || B) |
+| true  | true  | false  | 
+| false | true  | false  |
+| true  | false | false  |
+| false | false | true   |
+```
+6. Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
 ``` js
   2 + 3 * 2 + 1
   2 + 6 + 1
@@ -70,7 +78,7 @@ For reference, here is a truth table for the expression A && !B:
               10
   ```
 
- 6. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+ 7. Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 ``` js
   4 / 2 + 8 / 4
   2 + 8 / 4
@@ -78,15 +86,22 @@ For reference, here is a truth table for the expression A && !B:
   6
 ```
 
- 7. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+ 8. Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 ``` js
   cater + pi + llar
   caterpi +llar
   caterpillar
  ```
- 8. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+ 9. Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
  ``` js
-  6 === 8 && 'car' + 'pool' === 'carpool'
- 6 === 8 && 'carpool' === 'carpool'
+ 2 * 4  === 8 && 'car' + 'pool' === 'carpool'
+ 8 === 8 && 'carpool' === 'carpool'
  true
+```
+10. Write a step-by-step evaluation for the following expression: '1' + '2' + '3' - '1'.
+```js
+1 + 2 + 3 - 1
+3 + 3 - 1
+6 - 1 
+5
 ```
