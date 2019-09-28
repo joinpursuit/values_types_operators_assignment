@@ -21,7 +21,7 @@ What will the following return?
 * `typeof 4` - Number
 *  `typeof 'hello'` - String
 *  `typeof true` - Boolean 
-* `2 === 1 || 3 === 4` = False
+* `2 === 1 || 3 === 4` - False
 ```
 ## Problem Three
 
