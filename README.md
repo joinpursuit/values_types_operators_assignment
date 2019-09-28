@@ -5,14 +5,23 @@
 What are the types of the following expressions and what do they evaluate to, and why?
 
 * `17`
+    number 17 
 * `1 + 2 * 3 + 4`
+    number 11 , order of operations
 * `800 / 80 / 8`
+    1.25 number 
 * `400 > 200`
+    true boolean evaluates boolean expression 400 is greater than 200
 * `1 !== 1`
+    false boolean evaluates boolean expression 1 is not 1 false
 * `true || false`
+    true boolean evaluates boolean expression true or false is true
 * `true && false`
+    false boolean evaluates boolean expression true and false is false
 * `20 % 6`
+    2 number 20 divded by 6 is 18 remainder 6 
 * `'a' + 'b'`
+    b string concatenate 
 
 ## Problem Two
 
