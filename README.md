@@ -4,8 +4,10 @@
 
 What are the types of the following expressions and what do they evaluate to, and why?
 
-* `17`
+* `17` 
+number, 17, this is a number 
 * `1 + 2 * 3 + 4`
+numbers, 11, the computer follows order of operation 
 * `800 / 80 / 8`
 * `400 > 200`
 * `1 !== 1`
@@ -84,5 +86,3 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Ten
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-
-  
