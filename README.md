@@ -3,26 +3,26 @@
 ## Problem One
 
 What are the types of the following expressions and what do they evaluate to, and why?
-
-* `17`
-* `1 + 2 * 3 + 4`
-* `800 / 80 / 8`
-* `400 > 200`
-* `1 !== 1`
-* `true || false`
-* `true && false`
-* `20 % 6`
-* `'a' + 'b'`
-
+```
+* `17`  String - In quotes
+* `1 + 2 * 3 + 4` - Number - Evaluates to 11 - Order of Operations
+* `800 / 80 / 8` - Number - Evalutes to 1.25 - Order of Operations
+* `400 > 200` - Boolean - Evalutes to true - 400 is greater than 200
+* `1 !== 1` - Boolean - Evalutes to False - 1 is equal to 1
+* `true || false` Booelean - Evalutes to true - One side is ture
+* `true && false` Boolean - Evalutes to false - Not add
+* `20 % 6` Number - Evaluetes to 2 - 2 is the remainder
+* `'a' + 'b'` String - Evalutes to 'ab' - Concatination
+```
 ## Problem Two
 
 What will the following return?
-
-* `typeof 4`
-*  `typeof 'hello'`
-*  `typeof true`
-* `2 === 1 || 3 === 4`
-
+```
+* `typeof 4` - Number
+*  `typeof 'hello'` - String
+*  `typeof true` - Boolean 
+* `2 === 1 || 3 === 4` = False
+```
 ## Problem Three
 
 Create a truth table for the expression A || B.
