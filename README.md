@@ -3,11 +3,11 @@
 1. What are the types of the following expressions and what do they evaluate to, and why?
 * `17       //number, evaluates to 17
 
-* `1 + 2 * 3 + 4`
+* `1 + 2 * 3 + 4`// number, evaluates to 11
 * `800 / 80 / 8` // number, evaluates to 1.25
 * `400 > 200` // boolean, true b/c 400 is greater than 200
 * `1 !== 1`// boolean, true
-* `true || false` // boolean, false, b/c the not operator shows that 1 is not  = = to 1
+* `true || false` // boolean, true, b/c the boolean can be one of the two expressions.
 * `true && false` // boolean, false, b/c it requires both statements to be true
 * `20 % 6` //module, 2, 20/6 = 3 Remainder 2.
 * `'a' + 'b'`// string, ab b/c it is combining two characters, a + b = ab
