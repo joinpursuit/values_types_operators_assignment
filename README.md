@@ -39,7 +39,7 @@ false
 2
 '''
 * `'a' + 'b'`
-ab
+'ab'
 
 ## Problem Two
 
