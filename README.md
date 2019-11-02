@@ -151,7 +151,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 
 ```js
-  '1' + '2' + '3' - '1'
+  '1' + '2' + '3' - '1' 
      '1' + '2' + '2'
         '12' + '2'
          '122'
