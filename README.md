@@ -11,7 +11,7 @@ This is a number because it returns a single number.
 * `800 / 80 / 8`
 This is a number because it returns a single number.
 * `400 > 200`
-This is a boolean because it is a comparison.
+This is a comparison because it is a comparison.
 * `1 !== 1`
 This is a boolean because it is a comparison.
 * `true || false`

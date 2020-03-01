@@ -5,14 +5,23 @@
 What are the types of the following expressions and what do they evaluate to, and why?
 
 * `17`
+This is a number.
 * `1 + 2 * 3 + 4`
+This is an expression that returns a single number (11).
 * `800 / 80 / 8`
+This is an expression that returns a number (1.25).
 * `400 > 200`
+This is a boolean that returns true because > is a comparison operator.
 * `1 !== 1`
+This is a boolean that rerurns false because !== is a comparison operator.
 * `true || false`
+This is boolean a that returns true because || is a logical operator.
 * `true && false`
+This is a boolean that returns false because && is a logical operator.
 * `20 % 6`
+This is an expression that returns modulo 2 because % returns a remaining number.
 * `'a' + 'b'`
+This is a concatenation of strings that returns a string of "ab".
 
 ## Problem Two
 
