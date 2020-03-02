@@ -99,6 +99,12 @@ Write a step-by-step evaluation for the following expression (remember order of 
               10
   ```
   
+    2 + 3 * 2 + 1
+        2 + 6 + 1
+            8 + 1
+                9
+
+  
  ## Problem Seven
  
  Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
