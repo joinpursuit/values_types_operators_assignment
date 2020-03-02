@@ -80,6 +80,14 @@ For reference, here is a truth table for the expression A && !B:
 
 Create a truth table for the expression !(A || B).
 
+|   A   |   B   | !(A || B) | 
+|-------|-------|-----------|
+| true  | true  |  false    |
+| false | true  |  false    |
+| true  | false |  false    |
+| false | false |  true     |
+
+
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `2 + 3 * 2 + 1`.
