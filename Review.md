@@ -128,6 +128,12 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Nine
  
  Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+
+    2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+        8 ===  8 && 'car' + 'pool' === 'carpool'
+            8 ===  8 && 'carpool' === 'carpool'
+                true && true
+                    true
  
  ## Problem Ten
  
