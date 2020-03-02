@@ -44,10 +44,17 @@ For reference, here is a truth table for the expression A && B:
 
 |   A   |   B   | A && B | 
 |-------|-------|--------|
-| true  | true  | true  |
-| false | true  | false |
-| true  | false | false |
-| false | false | false | 
+| true  | true  | true   |
+| false | true  | false  |
+| true  | false | false  |
+| false | false | false  | 
+
+|   A   |   B   | A && B | A || B | 
+|-------|-------|--------|--------|
+| true  | true  | true   | true   |
+| false | true  | false  | true   |
+| true  | false | false  | true   |
+| false | false | false  | false  |
 
 ## Problem Four
 
