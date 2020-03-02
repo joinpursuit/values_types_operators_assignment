@@ -28,9 +28,13 @@ This is a concatenation of strings that returns a string of "ab".
 What will the following return?
 
 * `typeof 4`
+This will return 'number'.
 *  `typeof 'hello'`
+This will return 'string'.
 *  `typeof true`
+This will return 'boolean'.
 * `2 === 1 || 3 === 4`
+This will return 'false'.
 
 ## Problem Three
 
