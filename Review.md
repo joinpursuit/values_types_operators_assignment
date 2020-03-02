@@ -119,6 +119,11 @@ Write a step-by-step evaluation for the following expression (remember order of 
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 
+    'ca' + 'ter' + 'pi' + 'llar'
+        'cater' + 'pi' + 'llar'
+            'caterpi' + 'llar'
+                'caterpillar'
+
  
  ## Problem Nine
  
