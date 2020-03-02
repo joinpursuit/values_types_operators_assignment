@@ -109,6 +109,12 @@ Write a step-by-step evaluation for the following expression (remember order of 
  
  Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
+    4 / 2 + 8 / 4
+        2 + 8 / 4
+            2 + 2
+                4
+
+
  ## Problem Eight
  
  Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
