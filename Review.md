@@ -138,5 +138,10 @@ Write a step-by-step evaluation for the following expression (remember order of 
  ## Problem Ten
  
   Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+    
+    '1' + '2' + '3' - '1'
+        '12' + '3' - '1'
+            '123' - '1'
+                '122'
 
 
