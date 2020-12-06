@@ -36,6 +36,7 @@ Example:
 2 + 2
 // number, 4
 // Also had fun
+//So much fun
 ```
 
 For problems 3-5, fill out the existing table or create a new one. See the [table syntax guide](https://www.markdownguide.org/extended-syntax#tables)
