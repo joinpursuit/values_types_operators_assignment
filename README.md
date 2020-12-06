@@ -81,12 +81,13 @@ What will the following return?
 
 ```js
 typeof 4
-
+number
 typeof "hello"
-
+string
 typeof true
-
+boolean
 2 === 1 || 3 === 4
+false
 
 ```
 
