@@ -65,7 +65,7 @@ true && false
 20 % 6
 // number , 2
 "a" + "b"
-string , ab
+// string , ab
 ```
 
 ## Problem Two
@@ -74,13 +74,13 @@ What will the following return?
 
 ```js
 typeof 4
-
+// number
 typeof "hello"
-
+// string
 typeof true
-
+// boolean
 2 === 1 || 3 === 4
-
+// false
 ```
 
 ## Problem Three
@@ -91,10 +91,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B |  A ll B   |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| true  | true  | true   |   true   |
+| false | true  | false  |    true  |
+| true  | false | false  |   true   |
+| false | false | false  |    false  |
 
 ## Problem Four
 
@@ -132,6 +132,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+'cater' + 'pillar'
 
 ## Problem Nine
 
