@@ -49,23 +49,23 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
-
+// number, true
 1 + 2 * 3 + 4
-
+// number, 11
 800 / 80 / 8
-
+// number, 1.25
 400 > 200
-
+// boolean, true
 1 !== 1
-
+// boolean, false
 true || false
-
+// boolean, true
 true && false
-
+// boolean, false
 20 % 6
-
+// number, 2
 "a" + "b"
-
+// string, ab
 ```
 
 ## Problem Two
@@ -74,13 +74,13 @@ What will the following return?
 
 ```js
 typeof 4
-
+// number
 typeof "hello"
-
+// string
 typeof true
-
+// boolean
 2 === 1 || 3 === 4
-
+// false
 ```
 
 ## Problem Three
@@ -89,12 +89,12 @@ Create a truth table for the expression A || B.
 
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | A && B |  A ll B   |
-| ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| A     | B     | A && B |  A ll B |
+| ----- | ----- | ------ | --------|
+| true  | true  | true   | //true  |
+| false | true  | false  | //true  |
+| true  | false | false  | //true  |
+| false | false | false  | //false |
 
 ## Problem Four
 
@@ -104,14 +104,20 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   | //false  |
+| false | true  | false | false   | //false  |
+| true  | false | true  | true    | //false  |
+| false | false | true  | false   | //true   |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+//| A     | B     | !(A || B) | 
+  | ----- | ----- | --------- |
+  | true  | true  | false     | 
+  | false | true  | false     | 
+  | true  | false | false     | 
+  | false | false | true      | 
 
 ## Problem Six
 
