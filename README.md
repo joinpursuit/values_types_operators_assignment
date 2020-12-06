@@ -63,7 +63,7 @@ true || false
 true && false
 //false
 20 % 6
-// numer, 2
+// number, 2
 "a" + "b"
 //ab
 ```
@@ -112,11 +112,19 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+| A     | B     | !(A \|\| B) |
+|-------|-------|-------------|
+| TRUE  | TRUE  | FALSE       |
+| FALSE | TRUE  | FALSE       |
+| TRUE  | FALSE | FALSE       |
+| FALSE | FALSE | TRUE        |
+
 
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression ([remember order of operations](https://www.mathsisfun.com/operation-order-pemdas.html)): `2 + 3 * 2 + 1`.
 For reference, here is a exp of a step-by-step evaluation:
+
 
 ```js
 1 + 2 + 3 + 4
@@ -125,18 +133,27 @@ For reference, here is a exp of a step-by-step evaluation:
 10
 ```
 
+```js
+//(3 * 2) + 1 + 2
+//6 + 1 + 2
+//6 + 3
+//9
+```
+
+
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+//
 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-
+//
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-
+//
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
