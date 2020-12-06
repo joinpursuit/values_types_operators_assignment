@@ -49,23 +49,23 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
-
+// number, 17
 1 + 2 * 3 + 4
-
+// number, 11
 800 / 80 / 8
-
+//number, 1.25
 400 > 200
-
+//true
 1 !== 1
-
+//false
 true || false
-
+//true
 true && false
-
+//false
 20 % 6
-
+// numer, 2
 "a" + "b"
-
+//ab
 ```
 
 ## Problem Two
@@ -74,13 +74,13 @@ What will the following return?
 
 ```js
 typeof 4
-
+//number
 typeof "hello"
-
+// string
 typeof true
-
+// boolean
 2 === 1 || 3 === 4
-
+// false
 ```
 
 ## Problem Three
@@ -91,10 +91,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B |  A ll B   |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| true  | true  | true   |  true    |
+| false | true  | false  |  true   |
+| true  | false | false  |  true    |
+| false | false | false  |  false    |
 
 ## Problem Four
 
@@ -104,10 +104,10 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   | false    |
+| false | true  | false | false   | false    |
+| true  | false | true  | true    | false    |
+| false | false | true  | false   | true     |
 
 ## Problem Five
 
