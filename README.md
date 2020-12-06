@@ -143,17 +143,29 @@ For reference, here is a exp of a step-by-step evaluation:
 
 ## Problem Seven
 
+```js
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
-//
+//(4/2) + (8/4)
+//2 + 2
+//4
 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-//
+//caterpillar
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-//
+// (2*4) === 8 && ('car' + 'pool') === 'carpool'
+// 8 === 8 && 'carpool' === 'carpool'
+// true && true
+// true
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+// '1' + '2' + '3' - '1'
+// '123' - '1'
+// 122
+
+//* JS concatenated the numerical string and treated the '1" as a number because of the '-' 
+```
