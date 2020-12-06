@@ -51,21 +51,28 @@ What are the types of the following expressions and what do they evaluate to?
 17
 number 17
 1 + 2 * 3 + 4
+Number
+1 + 6 + 4
+7 + 4
+11
 
 800 / 80 / 8
+10/ 8
+1.25
 
 400 > 200
+true
 
 1 !== 1
-
+false
 true || false
-
+true
 true && false
-
+false
 20 % 6
-
+2
 "a" + "b"
-
+ab
 ```
 
 ## Problem Two
