@@ -104,10 +104,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B |  A ll B   |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| true  | true  | true   | true     |
+| false | true  | false  |  true    |
+| true  | false | false  |   true   |
+| false | false | false  |  false    |
 
 ## Problem Four
 
