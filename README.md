@@ -49,7 +49,7 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
-
+number 17
 1 + 2 * 3 + 4
 
 800 / 80 / 8
