@@ -12,9 +12,9 @@ Practice reading JS code and understanding what it does!
 
 ## Prerequisites
 
-- Forking & cloning a repo from git
+- Forking & cloning a repo from git 
 - Making a pull request
-
+                
 ---
 
 ## Getting Started
@@ -140,3 +140,17 @@ Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'c
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
