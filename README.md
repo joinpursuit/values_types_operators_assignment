@@ -117,14 +117,20 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   |  false   |
+| false | true  | false | false   | false    |
+| true  | false | true  | true    | false       |
+| false | false | true  | false   | true     |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+
+ A      | B     | ( A || B) | ! (A || B)
+ true   | true  | true      | false       
+false   | true  | true      | false       
+ true   | false | true      | false
+ false | false  | false      | true
 
 ## Problem Six
 
@@ -137,10 +143,18 @@ For reference, here is a exp of a step-by-step evaluation:
 6 + 4
 10
 ```
+2 + 3 * 2 + 1
+2 + 6 + 1
+8 + 1
+9
 
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+4 / 2 + 8 / 4
+2 + 8 / 4
+2 + 2
+4
 
 ## Problem Eight
 
