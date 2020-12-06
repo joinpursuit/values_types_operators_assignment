@@ -49,22 +49,48 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
+// literal
+// 17
 
 1 + 2 * 3 + 4
 
+// Operator Arithmetic - Order of operations
+// 11
+
 800 / 80 / 8
+
+// Operator Arithmetic - Order of operations 
+// 1.25
 
 400 > 200
 
+// Boolean/Comparison operators - greater than
+// True
+
 1 !== 1
 
-true || false
+// Boolean/Comparison operator - Tests for inequality
+// False
+
+true || false 
+
+// Logical Operators - OR - Looking for a truthy value on one side
+//  True
 
 true && false
 
-20 % 6
+// Logical Operators - AND - Looking for a truthy value on both sides
+// False
+
+20 % 6 
+
+// Operator Arithmetic - Modulo - the remainder operator
+// 2
 
 "a" + "b"
+
+// String Concatenation - joining of two strings together
+// ab
 
 ```
 
@@ -75,11 +101,19 @@ What will the following return?
 ```js
 typeof 4
 
+// 'number'
+
 typeof "hello"
+
+// 'string'
 
 typeof true
 
+// 'boolean'
+
 2 === 1 || 3 === 4
+
+// false
 
 ```
 
@@ -90,11 +124,11 @@ Create a truth table for the expression A || B.
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
 | A     | B     | A && B |  A ll B   |
-| ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| ----- | ----- | ------ | ----------|
+| true  | true  | true   | True      |
+| false | true  | false  | True      |
+| true  | false | false  | True      |
+| false | false | false  | False     |
 
 ## Problem Four
 
@@ -104,14 +138,21 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   | False    |
+| false | true  | false | false   | False    |
+| true  | false | true  | true    | False    |
+| false | false | true  | false   | True     |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+
+| A     | B     | !B    | A && !B | !A && !B | !(A || B).
+| ----- | ----- | ----- | ------- | -------- | -----------
+| true  | true  | false | false   | False    | False
+| false | true  | false | false   | False    | False
+| true  | false | true  | true    | False    | False
+| false | false | true  | false   | True     | True
 
 ## Problem Six
 
@@ -125,18 +166,51 @@ For reference, here is a exp of a step-by-step evaluation:
 10
 ```
 
+```js
+2 + 3 * 2 + 1
+2 + 6 + 1
+8 + 1
+9
+```
+
+
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+
+```js 
+4 / 2 + 8 / 4
+2 + 8 / 4
+2 + 2
+4
+```
 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 
+```js
+'ca' + 'ter' + 'pi' + 'llar'
+'cater' + 'pi' + 'llar'
+'caterpi' + 'llar'
+'caterpillar'
+```
+
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+```js
+2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+8 === 8 && 'car' + 'pool' === 'carpool'
+8 === 8 && 'carpool' === 'carpool'
+'carpool'
+```
 
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+```js
+'1' + '2' + '3' - '1'
+'12' + '3' - '1'
+'123' - '1'
+'122'
