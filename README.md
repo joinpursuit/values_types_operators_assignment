@@ -49,23 +49,30 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
+// number , 17
 
 1 + 2 * 3 + 4
+// number , 11
 
 800 / 80 / 8
+// number , 1.25
 
 400 > 200
+// boolean , True
 
 1 !== 1
+// boolean , false
 
 true || false
-
+// boolean , true
 true && false
+// boolean . false
 
 20 % 6
+// number , 2
 
 "a" + "b"
-
+// string , ab
 ```
 
 ## Problem Two
