@@ -49,23 +49,23 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
-
+// number, 17
 1 + 2 * 3 + 4
-
+// Operator Arthimetic, 13
 800 / 80 / 8
-
+// arthimetic, 1.25    
 400 > 200
-
-1 !== 1
-
+Comparison, true
+// 1 !== 1
+Inequality comparison, false
 true || false
-
+// OR Operator
 true && false
-
+// AND operator, false
 20 % 6
-
+// Remainder Arthimatic,2
 "a" + "b"
-
+// String, 'ab'
 ```
 
 ## Problem Two
@@ -74,14 +74,14 @@ What will the following return?
 
 ```js
 typeof 4
-
+// number
 typeof "hello"
-
+// string
 typeof true
-
+// boolean
 2 === 1 || 3 === 4
+//false
 
-```
 
 ## Problem Three
 
@@ -91,10 +91,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B |  A ll B   |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |      |
-| false | true  | false  |      |
-| true  | false | false  |      |
-| false | false | false  |      |
+| true  | true  | true   |   // true  |
+| false | true  | false  |   // true  |
+| true  | false | false  |   // true   |
+| false | false | false  |   // false   |
 
 ## Problem Four
 
@@ -104,18 +104,29 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |          |
-| false | true  | false | false   |          |
-| true  | false | true  | true    |          |
-| false | false | true  | false   |          |
+| true  | true  | false | false   |  // false         |
+| false | true  | false | false   |  // false        |
+| true  | false | true  | true    |  // false        |
+| false | false | true  | false   |  // true        |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+//
+| A     | B     | A && B |  A ll B   |
+| ----- | ----- | ------ | ---------- |
+| true  | true  | true   |  |// true
+| false | true  | false  |   // true  |
+| true  | false | false  |   // true   |
+| false | false | false  |   // false   |
 
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression ([remember order of operations](https://www.mathsisfun.com/operation-order-pemdas.html)): `2 + 3 * 2 + 1`.
+
+2 + 6 + 1
+8 + 1
+9
 For reference, here is a exp of a step-by-step evaluation:
 
 ```js
@@ -128,15 +139,26 @@ For reference, here is a exp of a step-by-step evaluation:
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
-
+// 2 + 2 
+// 4
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+// 'cater' + 'Pillar'
+// 'caterpillar'
 
 ## Problem Nine
-
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+ 
+ 
+ // '8 === 8 && 'car' + 'pool' === 'carpool'
+// true && 'carpool' === 'carpool'
+// 'carpool' === 'carpool'
+// true
 
-## Problem Ten
+# Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+''12' + '2''
+'12''2''
+'122'
