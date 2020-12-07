@@ -25,3 +25,12 @@
 // | false | true  | false  |    true    |
 // | true  | false | false  |    true    |
 // | false | false | false  |    false   |
+
+//Problem 4
+
+// | A     | B     | !B    | A && !B | !A && !B |
+// | ----- | ----- | ----- | ------- | -------- |
+// | true  | true  | false | false   |  false   |
+// | false | true  | false | false   |  false   |
+// | true  | false | true  | true    |  false   |
+// | false | false | true  | false   |  true    |
