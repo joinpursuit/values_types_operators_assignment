@@ -57,3 +57,10 @@
 // 2 + 8 / 4
 // 2 + 2
 // 4
+
+//Problem 8
+
+// 'ca' + 'ter' + 'pi' + 'llar'
+// 'cater' + 'pi' + 'llar'
+// 'caterpi' + 'llar'
+// 'caterpillar'
