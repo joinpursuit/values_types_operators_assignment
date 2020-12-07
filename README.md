@@ -67,13 +67,13 @@ true || false
 // 'boolean' true 
 
 true && false
-'boolean' false
+//'boolean' false
 
 20 % 6
 //2 'number' 
 
 "a" + "b"
-'string' 'ab'
+//'string' 'ab'
 
 ```
 
@@ -83,7 +83,7 @@ What will the following return?
 
 ```js
 typeof 4
-//'number'
+// 'number'
 typeof "hello"
 // 'string'
 typeof true
@@ -98,12 +98,12 @@ Create a truth table for the expression A || B.
 
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | A && B |  A ll B   |
+| A     | B     | A && B |  A ll B    |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |     //true
-| false | true  | false  |     //true
-| true  | false | false  |     //true
-| false | false | false  |     //false
+| true  | true  | true   |    //true  |
+| false | true  | false  |   //true   |
+| true  | false | false  |   //true   |
+| false | false | false  |   //false  |
 
 ## Problem Four
 
@@ -143,12 +143,12 @@ For reference, here is a exp of a step-by-step evaluation:
 10
 ```
 
-`2 + 3 * 2 + 1`
-
+```js
 2 + 3 * 2 + 1
 2 + 6 + 1
 8 + 1
 9
+```
 
 ## Problem Seven
 
@@ -191,8 +191,8 @@ true
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 
 ```js
-`'1' + '2' + '3' - '1'
-'12' + '3' - 1 
+'1' + '2' + '3' - '1'
+'12' + '3' - '1' 
 '123' - '1'
 '122'
 ```
