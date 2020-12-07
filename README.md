@@ -116,6 +116,13 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 Create a truth table for the expression !(A || B).
 
+| A     | B     | !B    |  !A    | A && !B | !A && !B |
+| ----- | ----- | ----- |------  | ------- | -------- |
+| true  | true  | false |  false |  false  |  false   |
+| false | true  | false |  true  |  false  |  false   |
+| true  | false | true  |  flase |  true   |  false   |
+| false | false | true  |  true  |  false  |  true    |
+
 | A     | B     | A || B | !(A || B) |
 | ----- | ----- | -----  | --------- | 
 | true  | true  |  true  |  false    | 
