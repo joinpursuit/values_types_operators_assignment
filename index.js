@@ -44,3 +44,9 @@
 // | true  | false | false    |
 // | false | false | true     |
 
+//Problem 6
+
+// 2 +  3 * 2 + 1
+// 2 + 6 + 1
+// 8 + 1
+// 9
