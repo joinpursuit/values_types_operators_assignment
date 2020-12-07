@@ -16,3 +16,12 @@
 //string
 //boolean
 //false
+
+//Problem 3
+
+// | A     | B     | A && B |  A ll B    |
+// | ----- | ----- | ------ | -----------|
+// | true  | true  | true   |    true    |
+// | false | true  | false  |    true    |
+// | true  | false | false  |    true    |
+// | false | false | false  |    false   |
