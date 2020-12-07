@@ -34,3 +34,13 @@
 // | false | true  | false | false   |  false   |
 // | true  | false | true  | true    |  false   |
 // | false | false | true  | false   |  true    |
+
+//Problem 5
+
+// | A     | B     | !(A || B)|
+// | ----- | ----- | -------- |
+// | true  | true  | false    |
+// | false | true  | false    |
+// | true  | false | false    |
+// | false | false | true     |
+
