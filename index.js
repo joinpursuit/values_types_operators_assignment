@@ -64,3 +64,10 @@
 // 'cater' + 'pi' + 'llar'
 // 'caterpi' + 'llar'
 // 'caterpillar'
+
+//Problem 9
+
+// 2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+// 8 === 8 && 'car' + 'pool' === 'carpool'
+// 8 === 8 && 'carpool' === 'carpool'
+// true
