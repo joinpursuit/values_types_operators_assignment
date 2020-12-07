@@ -97,6 +97,7 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 | false | false | false  |      | 
 
 A || B
+
 true
 true
 true
@@ -116,6 +117,7 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 | false | false | true  | false   |          |
 
 !A && !B
+  
   false 
   false
   false
