@@ -70,7 +70,7 @@ true && false
 //'boolean' false
 
 20 % 6
-//2 'number' 
+//'number' 2
 
 "a" + "b"
 //'string' 'ab'
