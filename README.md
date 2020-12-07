@@ -104,24 +104,47 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 | true  | true  | true   |   true   |
 | false | true  | false  |    true  |
 | true  | false | false  |   true   |
-| false | false | false  |    false  |
+| false | false | false  |    false |
+
+ 
+
+
 
 ## Problem Four
 
 Create a truth table for the expression !A && !B.
 
+|  A    |  B    | !A && !B | 
+  -----   -----   ------
+  true  |  true   | false 
+  false |  true   | false
+  true  |  false  | flase
+  false |  false  | true
+
+
+
+
+
 For reference, here is a truth table for the expression A && !B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |  false        |
-| false | true  | false | false   |   false       |
-| true  | false | true  | true    |   false       |
-| false | false | true  | false   |   true       |
+| true  | true  | false | false   |  false   |
+| false | true  | false | false   |  false   |
+| true  | false | true  | true    |  false   |
+| false | false | true  | false   |  true    |
 
 ## Problem Five
 
 Create a truth table for the expression !(A || B).
+
+|  A   |  B    |  !(A  ||  B)
+  ---- | ----- | -----------
+  true |  true |  falso
+  false | true |  falso
+  true | falso |  falso
+  falso | false | true
+
 
 ## Problem Six
 
@@ -134,20 +157,41 @@ For reference, here is a exp of a step-by-step evaluation:
 6 + 4
 10
 ```
+2 + 3 * 2 + 1
+2 + 6 + 1
+8 + 1
+9
+
 
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
+4 / 2 + 8 / 4
+2 + 2
+4
+
+
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 'cater' + 'pillar'
+'caterpillar'
+
 
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
 
+2 * 4 === 8 && 'car' + 'pool' === 'carpool'
+8 === 8 && 'car' + 'pool' === 'carpool'
+8 === 8 && 'carpool' === 'carpool'
+
+
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+
+'1' + '2' + '3' - '1'
+122
+
