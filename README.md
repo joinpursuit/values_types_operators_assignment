@@ -132,7 +132,7 @@ For reference, here is a exp of a step-by-step evaluation:
 6 + 4
 10
 ```
-`2 + 3 * 2 + 1`
+2 + 3 * 2 + 1
 
 ```js
 2 + 3 * 2 + 1
@@ -152,6 +152,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+
 ```js
 'ca' + 'ter' + 'pi' + 'llar'
 'cater' + 'pi' + 'llar'
@@ -173,6 +174,7 @@ true
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+
 '1' + '2' + '3' - '1'
 '1' + '2' + '2'
 122
