@@ -130,7 +130,7 @@ Create a truth table for the expression !(A || B).
  true   | true  | true      | false       
 false   | true  | true      | false       
  true   | false | true      | false
- false | false  | false      | true
+ false |  false  | false     | true
 
 ## Problem Six
 
@@ -159,11 +159,25 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
+"ca ' + ' ter' + 'pi' + 'llar"
+cater + pi + llar
+caterpi + llar
+caterpillar 
 
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
+'2 * 4 === 8 && 'car' + 'pool' === 'carpool"
+8 === 8 && 'car' + 'pool' === 'carpool"
+8 === 8 && carpool === carpool
+true === true
+true
+
 
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+'1' + '2' + '3' - '1'
+3 + 3 - 1
+6 - 1
+5
