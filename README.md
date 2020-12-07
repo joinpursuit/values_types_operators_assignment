@@ -100,10 +100,10 @@ For reference, here is a truth table for the expression A && B. You can fill ou
 
 | A     | B     | A && B |  A ll B    |
 | ----- | ----- | ------ | ---------- |
-| true  | true  | true   |    //true  |
-| false | true  | false  |   //true   |
-| true  | false | false  |   //true   |
-| false | false | false  |   //false  |
+| true  | true  | true   |   true     |
+| false | true  | false  |   true     |
+| true  | false | false  |   true     |
+| false | false | false  |   false    |
 
 ## Problem Four
 
@@ -113,10 +113,10 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |  //false |
-| false | true  | false | false   |  //false |   
-| true  | false | true  | true    |  //false |
-| false | false | true  | false   |  //true  |
+| true  | true  | false | false   |  false   |
+| false | true  | false | false   |  false   |   
+| true  | false | true  | true    |  false   |
+| false | false | true  | false   |  true    |
 
 ## Problem Five
 
@@ -124,10 +124,10 @@ Create a truth table for the expression !(A || B).
 
 | A     | B     |   A ll B   |
 | ----- | ----- | ---------- |
-| true  | true  |   //false  |
-| false | true  |   //false  |
-| true  | false |   //false  | 
-| false | false |   //true   |
+| true  | true  |    false   |
+| false | true  |    false   |
+| true  | false |    false   | 
+| false | false |    true    |
 
 
 
@@ -167,9 +167,9 @@ Write a step-by-step evaluation for the following expression (remember order of 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 
 ```js
-'ca' + 'ter' + 'pi' + 'llar'`.
-cater + 'pi' + 'llar'
-caterpi + llar
+'ca' + 'ter' + 'pi' + 'llar'
+'cater' + 'pi' + 'llar'
+'caterpi' + 'llar'
 caterpillar
 ```
 
@@ -179,8 +179,8 @@ Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'c
 
 ```js
 2 * 4 === 8 && 'car' + 'pool' === 'carpool'
-8 === 8 && 'car' + pool === 'carpool'
-true && 'car' + pool === 'carpool'
+8 === 8 && 'car' + 'pool' === 'carpool'
+true && 'car' + 'pool' === 'carpool'
 true && 'carpool' === 'carpool'
 true && true
 true
@@ -194,5 +194,5 @@ Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' -
 '1' + '2' + '3' - '1'
 '12' + '3' - '1' 
 '123' - '1'
-'122'
+122
 ```
