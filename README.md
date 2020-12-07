@@ -47,6 +47,8 @@ For problems 6-10, see the example in problem 6 and write your own answer below 
 
 What are the types of the following expressions and what do they evaluate to?
 
+MY UPDATES.
+
 ```js
 17
 
