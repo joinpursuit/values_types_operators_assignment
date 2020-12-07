@@ -102,18 +102,23 @@ Create a truth table for the expression !A && !B.
 
 For reference, here is a truth table for the expression A && !B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | !B    | A && !B | !A && !B |
-| ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |         |
-| false | true  | false | false   |       |
-| true  | false | true  | true    |         |
-| false | false | true  | false   |         |
+| A     | B     | !B    | A && !B | !A && !B  |
+| ----- | ----- | ----- | ------- | --------  |
+| true  | true  | false | false   |           |
+| false | true  | false | false   |           |
+| true  | false | true  | true    |           |
+| false | false | true  | false   |           |
 
 ## Problem Five
-
+| A     | B     | !B    | A && !B | !A && !B  | !(A || B)
+| ----- | ----- | ----- | ------- | --------  | --------
+| true  | true  | false | false   | false     | false
+| false | true  | false | false   | false     | false
+| true  | false | true  | true    | false     | false
+| false | false | true  | false   | true      | true
 Create a truth table for the expression !(A || B).
-A      B       !(A     ||       B)
-false   false       true            
+
+            
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression ([remember order of operations](https://www.mathsisfun.com/operation-order-pemdas.html)): `2 + 3 * 2 + 1`.
@@ -125,11 +130,16 @@ For reference, here is a exp of a step-by-step evaluation:
 6 + 4
 10
 ```
-
+// 3*2
+// 2 + 1
+// = 9
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
-
+// 4/2 
+// 8/4
+// 2+2
+// = 4
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
@@ -138,7 +148,10 @@ Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'p
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-
+true
+carpool
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
+12 + 2
+= 14
