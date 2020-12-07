@@ -155,6 +155,7 @@ For reference, here is a exp of a step-by-step evaluation:
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
 
 // 4 / 2 + 8 / 4
+// 2 + 8 / 4
 // 2 + 2
 // 4
 
@@ -173,6 +174,7 @@ Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'c
 // 2 * 4 === 8 && 'car' + 'pool' === 'carpool'
 // 8 === 8 && 'car' + 'pool' === 'carpool'
 // 8 === 8 && 'carpool' === 'carpool'
+// true && 'carpool' === 'carpool'
 // true && true
 // true
 
