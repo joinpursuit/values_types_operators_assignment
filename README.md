@@ -89,7 +89,7 @@ Create a truth table for the expression A || B.
 
 For reference, here is a truth table for the expression A && B. You can fill out the last column. Don't worry about keeping the spacing exact.
 
-| A     | B     | A && B |  A || B    |
+| A     | B     | A && B |  A ll B    |
 | ----- | ----- | ------ | ---------- |
 | true  | true  | true   |   true     |
 | false | true  | false  |   true     |
@@ -113,11 +113,13 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 Create a truth table for the expression !(A || B).
 
-| A        | B        | !A       | !B       | !(A || B) |
+| A        | B        | !A       | !B       | !(A ll B) |
+| -------- | -------- | -------- | -------- | --------  |
 |  true    |  true    |  false   |  false   | falsy     |
 |  true    |  false   |  false   |  true    | falsy     |
 |  false   |  true    |  true    |  false   | falsy     |
 |  false   |  false   |  true    |  true    | truey     |
+
 ## Problem Six
 
 Write a step-by-step evaluation for the following expression ([remember order of operations](https://www.mathsisfun.com/operation-order-pemdas.html)): `2 + 3 * 2 + 1`.
