@@ -9,3 +9,10 @@
 // Boolean evaluates to false.
 // Number evaluates to 2.
 // String evaluates to "ab".
+
+//Problem 2
+
+//number
+//string
+//boolean
+//false
