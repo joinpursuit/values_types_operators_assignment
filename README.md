@@ -125,12 +125,11 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 Create a truth table for the expression !(A || B).
 
-| A     | B     | A || B | !(A || B) |
-| ----- | ----- | -----  | --------- | 
-| true  | true  |  true  |  false    | 
-| false | true  |  true  |  flase    |         
-| true  | false |  true  |  false    |          
-| false | false |  false |  true     |
+!(A || B)
+false  
+flase        
+false     
+true     
 
 ## Problem Six
 
