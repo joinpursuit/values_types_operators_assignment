@@ -146,30 +146,34 @@ For reference, here is a exp of a step-by-step evaluation:
 ## Problem Seven
 
 Write a step-by-step evaluation for the following expression (remember order of operations): `4 / 2 + 8 / 4`.
+```js
 4 / 2 + 8 / 4
-2+2
+2 + 2
 4
 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-'ca' + 'ter' + 'pi' + 'llar
+```js
+'ca' + 'ter' + 'pi' + 'llar'
 'cater' + 'pillar'
 'caterpillar'
 
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
-
+```js
  2 * 4 === 8 && 'car' + 'pool' === 'carpool'
-8===8 && 'carpool' === 'carpool'
+ 8===8 && 'carpool' === 'carpool'
 true && carpool
 true
+
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
-'1' + '2' + '3' - '1'
+```js
 
+'1' + '2' + '3' - '1'
 '12' +'3' -'1'
 '123' -'1'
 122
