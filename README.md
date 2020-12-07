@@ -160,4 +160,4 @@ true
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 '12' + '3' - '1'
 '123' - '1'
-Nan
+'122'
