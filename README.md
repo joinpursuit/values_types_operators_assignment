@@ -115,10 +115,10 @@ Create a truth table for the expression !(A || B).
 
 | A        | B        | !A       | !B       | !(A ll B) |
 | -------- | -------- | -------- | -------- | --------  |
-|  true    |  true    |  false   |  false   | falsy     |
-|  true    |  false   |  false   |  true    | falsy     |
-|  false   |  true    |  true    |  false   | falsy     |
-|  false   |  false   |  true    |  true    | truey     |
+|  true    |  true    |  false   |  false   | false     |
+|  true    |  false   |  false   |  true    | false     |
+|  false   |  true    |  true    |  false   | false     |
+|  false   |  false   |  true    |  true    | true      |
 
 ## Problem Six
 
