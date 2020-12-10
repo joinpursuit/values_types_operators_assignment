@@ -53,7 +53,7 @@ What are the types of the following expressions and what do they evaluate to?
 1 + 2 * 3 + 4
 // Number 11
 800 / 80 / 8
-
+// Number 1.25
 400 > 200
 
 1 !== 1
