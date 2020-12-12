@@ -117,14 +117,20 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 | false | false | true  | false   | true       |
 
 ## Problem Five
-| A     | B     | !B    | A && !B | !A && !B  | !(A || B)
+| A     | B     | !B    | A && !B | !A && !B  | !(A || B) 
 | ----- | ----- | ----- | ------- | --------  | --------
 | true  | true  | false | false   | false     | false |
 | false | true  | false | false   | false     | false |
 | true  | false | true  | true    | false     | false |
 | false | false | true  | false   | true      | true |
-Create a truth table for the expression !(A || B).
 
+Create a truth table for the expression !(A || B).
+| A     | B     | !B    | A && !B | !A && !B  | !(A || B)|
+| ----- | ----- | ----- | ------- | --------  | -------- |
+| true  | true  | false | false   | false     | false    |
+| false | true  | false | false   | false     | false    |
+| true  | false | true  | true    | false     | false    |
+| false | false | true  | false   | true      | true     |
             
 ## Problem Six
 
