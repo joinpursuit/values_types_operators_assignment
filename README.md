@@ -49,30 +49,31 @@ What are the types of the following expressions and what do they evaluate to?
 
 ```js
 17
-// number  17
+// number, 17
 
 1 + 2 * 3 + 4
-// Operator Arithmetic 11
+// Operator Arithmetic, 11
 
 800 / 80 / 8
-// Operator Arithmetic 1.25
+// Operator Arithmetic, 1.25
 
 400 > 200
-// Comparison Operator True
+// Comparison Operator, true
 
 1 !== 1
-// Comparison Operator False
+// Comparison Operator, false
 
 true || false
-// Logical Operator true 
+// Logical Operator, true 
 
 true && false
-// Logical Operator false 
+// Logical Operator, false 
+
 20 % 6
-// modulo 2
+// modulo, 2
 
 "a" + "b"
-// String Concatenation ab
+// String Concatenation, ab
 
 ```
 
@@ -82,16 +83,16 @@ What will the following return?
 
 ```js
 typeof 4
-// Number 
+// 'number' 
 
 typeof "hello"
-// String 
+// 'string' 
 
 typeof true
-// Boolean 
+// 'boolean' 
 
 2 === 1 || 3 === 4
-// False
+// false
 
 ```
 
@@ -127,8 +128,8 @@ Create a truth table for the expression !(A || B).
 | A     | B     | !(A || B) |
 | ----- | ----- | -------- |
 | true  | true  | false    |
-| false | true  | true     |
-| true  | false | true     |
+| false | true  | false    |
+| true  | false | false    |
 | false | false | true     |
 
 ## Problem Six
@@ -158,17 +159,18 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-// ca + ter + pi + llar
-// cater + pillar
-// caterpillar 
+// 'ca' + 'ter' + 'pi' + 'llar'
+// 'cater' + 'pillar'
+// 'caterpillar' 
 
 ## Problem Nine
 
 Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'car' + 'pool' === 'carpool'`.
 // 2 * 4 === 8 && 'car' + 'pool' === 'carpool'
 // 8 === 8 && 'car' + 'pool" === 'carpool'
-// 8 === 8 && 'carpool' 
-// true 
+// true && 'carpool' 
+// 'carpool'
+
 ## Problem Ten
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
