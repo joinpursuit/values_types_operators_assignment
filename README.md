@@ -175,4 +175,6 @@ Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'c
 
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 // '1' + '2' + '3' - '1'
+// '12' + '3' - '1'
+// '123' - '1'
 // 122
