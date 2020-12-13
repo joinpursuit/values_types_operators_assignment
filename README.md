@@ -52,28 +52,28 @@ What are the types of the following expressions and what do they evaluate to?
 // number, 17
 
 1 + 2 * 3 + 4
-// Operator Arithmetic, 11
+// number, 11
 
 800 / 80 / 8
-// Operator Arithmetic, 1.25
+// number, 1.25
 
 400 > 200
-// Comparison Operator, true
+// boolean, true
 
 1 !== 1
-// Comparison Operator, false
+// boolean, false
 
 true || false
-// Logical Operator, true 
+// boolean, true 
 
 true && false
-// Logical Operator, false 
+// boolean, false 
 
 20 % 6
-// modulo, 2
+// number, 2
 
 "a" + "b"
-// String Concatenation, ab
+// String, "ab"
 
 ```
 
