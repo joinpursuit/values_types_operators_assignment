@@ -74,7 +74,6 @@ What will the following return?
 
 ```js
 typeof 4
-<<<<<<< HEAD
 // 'number'
 typeof "hello"
 //'string'
@@ -82,15 +81,6 @@ typeof true
 //'boolean'
 2 === 1 || 3 === 4
 //false
-=======
-// number
-typeof "hello"
-// string
-typeof true
-// boolean
-2 === 1 || 3 === 4
-// false
->>>>>>> 722aae78ac41ffa1ca831fcdc01d0b2e6773cd96
 ```
 
 ## Problem Three
@@ -140,10 +130,10 @@ Create a truth table for the expression !(A || B).
 
 |  A   |  B    |  !(A  ||  B)
   ---- | ----- | -----------
-  true |  true |  falso
-  false | true |  falso
-  true | falso |  falso
-  falso | false | true
+  true |  true |  false
+  false | true |  false
+  true | false |  false
+  false | false | true
 
 
 ## Problem Six
@@ -193,5 +183,6 @@ Write a step-by-step evaluation for the following expression: `2 * 4 === 8 && 'c
 Write a step-by-step evaluation for the following expression: `'1' + '2' + '3' - '1'`.
 
 '1' + '2' + '3' - '1'
+'123' - '1'
 122
 
