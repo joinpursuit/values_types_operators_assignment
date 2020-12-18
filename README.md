@@ -51,21 +51,21 @@ What are the types of the following expressions and what do they evaluate to?
 17
 // number, 17
 1 + 2 * 3 + 4
-// operator arithmetic, 11
+// number, 11
 800 / 80 / 8
-// operator arithmetic, 1.25
+// number, 1.25
 400 > 200
-// comparison operator, true
+// boolean, true
 1 !== 1
-// comparison operator, false 
+// boolean, false 
 true || false
-// logical operator (OR), true
+// boolean, true
 true && false
-//logical operator (AND), false
+// boolean, false
 20 % 6
-// operator arithmetic (modulo), 2
+// number, 2
 "a" + "b"
-// strings, ab
+// string, "ab"
 ```
 
 ## Problem Two
