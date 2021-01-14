@@ -131,7 +131,7 @@ Create a truth table for the expression !(A || B).
 | ----- | ----- | ----- | ------- | -------- |
 | true  | true  | false | true    |  false   |
 | false | true  | false | true    |  false   |
-| true  | false | true  | true    |  true    |
+| true  | false | true  | true    |  false   |
 | false | false | true  | false   |  true    |
 
 
