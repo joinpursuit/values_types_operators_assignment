@@ -144,6 +144,7 @@ For reference, here is a exp of a step-by-step evaluation:
 6 + 4
 10
 ```
+
 //`2 + 3 * 2 + 1`
 // 2 + 6 + 1
 // 8 + 1
@@ -160,8 +161,9 @@ Write a step-by-step evaluation for the following expression (remember order of 
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
 // `'ca' + 'ter' + 'pi' + 'llar'`
-// 'cater' + 'pillar'
-// 'caterpillar'
+// 'cater' + 'pillar' (incorrect)   //'cater' + 'pi' + ' llar'
+// 'caterpillar' (incorrect)        //'caterpi' + ' llar'
+                                    //'caterpillar'
 
 ## Problem Nine
 
