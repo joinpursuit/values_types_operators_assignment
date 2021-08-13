@@ -117,9 +117,9 @@ For reference, here is a truth table for the expression A && !B. You can fill o
 
 | A     | B     | !B    | A && !B | !A && !B |
 | ----- | ----- | ----- | ------- | -------- |
-| true  | true  | false | false   |  false   |
+| true  | true  | false | false   | false    |
 | false | true  | false | false   | false    |
-| true  | false | true  | true    | false       |
+| true  | false | true  | true    | false    |
 | false | false | true  | false   | true     |
 
 ## Problem Five
@@ -128,9 +128,9 @@ Create a truth table for the expression !(A || B).
 
  A      | B     | ( A || B) | ! (A || B)
  true   | true  | true      | false       
-false   | true  | true      | false       
+ false  | true  | true      | false       
  true   | false | true      | false
- false |  false  | false     | true
+ false  | false | false     | true
 
 ## Problem Six
 
@@ -159,7 +159,7 @@ Write a step-by-step evaluation for the following expression (remember order of 
 ## Problem Eight
 
 Write a step-by-step evaluation for the following expression: `'ca' + 'ter' + 'pi' + 'llar'`.
-"ca ' + ' ter' + 'pi' + 'llar"
+`'ca ' + ' ter' + 'pi' + 'llar'`
 cater + pi + llar
 caterpi + llar
 caterpillar 
